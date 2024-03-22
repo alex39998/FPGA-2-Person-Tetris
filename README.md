@@ -1,1 +1,1 @@
-# FPGA-2-Person-Tetris
+Multiplayer tetris [almost] purely in system verilog, design utilizes a microblaze softcore IP block design. System verilog written with Xilinx Vivado, C code with Vitis IDE. Hardware: HDMI display, Spartan-7 FPGA, MAX3241E chip to handle USB keyboard communication. Utilizes a VGA library and VGA to HDMI IP from realdigital, as well as a modified C library for SPI communication between microblaze and MAX3241E
